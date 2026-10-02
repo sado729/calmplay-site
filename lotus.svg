@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 140" width="200" height="140">
+  <!-- CalmPlay mark: a pastel lotus of overlapping translucent petals with the four game-button signs (2026-10-02,
+       option B of the logo board). Source for scripts/make-icons.mjs; base point of the petals at (100, 112). -->
+  <defs>
+    <path id="petal" d="M0 0 C31 -26 19 -73 0 -100 C-19 -73 -31 -26 0 0 Z"/>
+    <path id="bowl" d="M22 101 Q100 88 178 101 Q138 124 100 134 Q62 124 22 101 Z"/>
+    <linearGradient id="center" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#ffe6ee"/><stop offset="1" stop-color="#ffaac6"/></linearGradient>
+    <linearGradient id="lilac" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#f1e9ff"/><stop offset="1" stop-color="#c9b2f5"/></linearGradient>
+    <linearGradient id="mint" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#e3f8ee"/><stop offset="1" stop-color="#a6e3c6"/></linearGradient>
+    <linearGradient id="peach" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#fff0e4"/><stop offset="1" stop-color="#ffcfae"/></linearGradient>
+    <linearGradient id="bowlFill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd2e1"/><stop offset="1" stop-color="#f7aecb"/></linearGradient>
+  </defs>
+  <g stroke="#ffffff" stroke-width="2.2" stroke-linejoin="round">
+    <use xlink:href="#petal" href="#petal" fill="url(#peach)" opacity=".85" transform="translate(100 112) rotate(-79) scale(1.2 .86)" vector-effect="non-scaling-stroke"/>
+    <use xlink:href="#petal" href="#petal" fill="url(#peach)" opacity=".85" transform="translate(100 112) rotate(79) scale(1.2 .86)" vector-effect="non-scaling-stroke"/>
+    <use xlink:href="#petal" href="#petal" fill="url(#mint)" opacity=".86" transform="translate(100 112) rotate(-53) scale(1.12 .93)" vector-effect="non-scaling-stroke"/>
+    <use xlink:href="#petal" href="#petal" fill="url(#mint)" opacity=".86" transform="translate(100 112) rotate(53) scale(1.12 .93)" vector-effect="non-scaling-stroke"/>
+    <use xlink:href="#petal" href="#petal" fill="url(#lilac)" opacity=".86" transform="translate(100 112) rotate(-26) scale(1.06 1)" vector-effect="non-scaling-stroke"/>
+    <use xlink:href="#petal" href="#petal" fill="url(#lilac)" opacity=".86" transform="translate(100 112) rotate(26) scale(1.06 1)" vector-effect="non-scaling-stroke"/>
+    <use xlink:href="#petal" href="#petal" fill="url(#center)" opacity=".92" transform="translate(100 112) scale(1.16 1.06)" vector-effect="non-scaling-stroke"/>
+    <use xlink:href="#bowl" href="#bowl" fill="url(#bowlFill)" opacity=".92"/>
+  </g>
+  <circle cx="100" cy="32" r="5" fill="#ffffff"/>
+  <circle cx="69" cy="61" r="5.4" fill="none" stroke="#b08ae0" stroke-width="3"/>
+  <path d="M131 55 v13 M124.5 61.5 h13" stroke="#b08ae0" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M42 97 l6.5 -11 l6.5 11 z" fill="#5fc79a"/>
+  <circle cx="155" cy="93" r="5.4" fill="#ff9f7a"/>
+</svg>
